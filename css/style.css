@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif; 
+    font-size: 16px;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+}
+
+.container-main {
+    width: 80%;
+    margin: auto;
+}
+
+.right img {
+    width: 100%;
+}
+
+.left, .right {
+    margin-top: 70px;
+    width: 40%;
+
+}
+
+.right {
+    margin-top: 40px;
+    width: 60%;
+}
+
+.left .title {
+    color: #2B2B2B;
+    font-family: "Poppins", Sans-serif;
+    font-size: 65px;
+    font-weight: 700;
+    text-transform: none;
+    line-height: 1.1em;
+}
+
+.left p {
+    margin-bottom: 10px;
+}
+
+h1, h2 {
+    color: #f50057;
+    text-align: center;
+    margin: 50px 0;
+    font-weight: 600;
+}
+
+h2 {
+    color: black;
+}
+
+
+li {
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.center {
+    text-align: center;
+}
+
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background: #eee;
+    /* overflow: hidden; */
+    /* position: fixed; Set the navbar to fixed position */
+    /* top: 0;  Position the navbar at the top of the page */
+    /* width: 100%;  Full width */
+    /* color: slategrey; */
+}
+
+.logo {
+    width: 20%;
+    text-align: center;
+    /* border: 5px solid #F50057; */
+    margin: 10px;
+}
+
+.header nav {
+    width: 40%;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+.item a:hover,
+.item .active {
+    border-bottom: 2px solid #F50057;
+}
+
+.btn {
+    padding: 10px 30px;
+    color: white;
+    background-color: black;
+    font-size: 18px;
+}
+
+.btn:hover {
+    color: black;
+    background-color: white;
+}
+
+.btn.try-now {
+    margin-top: 10px;
+    padding: 10px 60px;
+    border-radius: 22px;
+    color: white;
+    background-color: #F50057;
+}
+
+.main-cta {
+    text-align: center;
+    margin: 70px 0;
+}
+
+.btn.try-now:hover {
+    color: white;
+    background-color: rgb(219, 177, 157);
+}
+
+.home-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    background-color: #ddd;
+    color: black;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    margin-top: 50px;
+}
